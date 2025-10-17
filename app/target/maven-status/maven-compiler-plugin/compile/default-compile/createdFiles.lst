@@ -1,0 +1,5 @@
+com\example\app\DrugInteractionsApplication.class
+com\example\app\error\GlobalExceptionHandler.class
+com\example\app\controller\InteractionController.class
+com\example\app\config\WebClientConfig.class
+com\example\app\controller\SignalController.class

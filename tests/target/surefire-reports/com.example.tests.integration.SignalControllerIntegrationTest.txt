@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: com.example.tests.integration.SignalControllerIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.463 s <<< FAILURE! -- in com.example.tests.integration.SignalControllerIntegrationTest
+com.example.tests.integration.SignalControllerIntegrationTest -- Time elapsed: 1.463 s <<< ERROR!
+java.lang.IncompatibleClassChangeError: class org.eclipse.jetty.http2.server.HttpChannelOverHTTP2 has interface org.eclipse.jetty.server.HttpChannel as super class
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1027)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:862)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:760)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at org.eclipse.jetty.http2.server.AbstractHTTP2ServerConnectionFactory.<init>(AbstractHTTP2ServerConnectionFactory.java:80)
+	at org.eclipse.jetty.http2.server.HTTP2ServerConnectionFactory.<init>(HTTP2ServerConnectionFactory.java:53)
+	at org.eclipse.jetty.http2.server.HTTP2CServerConnectionFactory.<init>(HTTP2CServerConnectionFactory.java:53)
+	at org.eclipse.jetty.http2.server.HTTP2CServerConnectionFactory.<init>(HTTP2CServerConnectionFactory.java:48)
+	at com.github.tomakehurst.wiremock.jetty11.Jetty11HttpServer.createHttpConnector(Jetty11HttpServer.java:53)
+	at com.github.tomakehurst.wiremock.jetty.JettyHttpServer.<init>(JettyHttpServer.java:89)
+	at com.github.tomakehurst.wiremock.jetty11.Jetty11HttpServer.<init>(Jetty11HttpServer.java:44)
+	at com.github.tomakehurst.wiremock.jetty.JettyHttpServerFactory.buildHttpServer(JettyHttpServerFactory.java:31)
+	at com.github.tomakehurst.wiremock.WireMockServer.<init>(WireMockServer.java:75)
+	at com.github.tomakehurst.wiremock.junit5.WireMockExtension.startServerIfRequired(WireMockExtension.java:162)
+	at com.github.tomakehurst.wiremock.junit5.WireMockExtension.beforeAll(WireMockExtension.java:228)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	Suppressed: java.lang.NullPointerException: Cannot invoke "com.github.tomakehurst.wiremock.WireMockServer.isRunning()" because "this.wireMockServer" is null
+		at com.github.tomakehurst.wiremock.junit5.WireMockExtension.stopServerIfRunning(WireMockExtension.java:216)
+		at com.github.tomakehurst.wiremock.junit5.WireMockExtension.afterAll(WireMockExtension.java:254)
+		... 1 more
+

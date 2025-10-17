@@ -1,0 +1,11 @@
+com\example\domain\exceptions\InteractionNotFoundException.class
+com\example\domain\model\Error.class
+com\example\domain\model\SignalAnalysis.class
+com\example\domain\exception\InteractionNotFoundException.class
+com\example\domain\model\DrugName.class
+com\example\domain\ports\OpenFdaClient.class
+com\example\domain\service\SignalAnalysisService.class
+com\example\domain\model\InteractionNote.class
+com\example\domain\ports\InteractionRepository.class
+com\example\domain\model\SignalAnalysis$AdverseReaction.class
+com\example\domain\service\InteractionService.class

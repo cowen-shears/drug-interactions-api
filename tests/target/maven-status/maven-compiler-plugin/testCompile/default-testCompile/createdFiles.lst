@@ -1,0 +1,7 @@
+com\example\tests\config\TestConfig.class
+com\example\tests\integration\SignalControllerIntegrationTest.class
+com\example\tests\unit\DrugNameValidationTest.class
+com\example\tests\unit\SignalAnalysisServiceTest.class
+com\example\tests\fixtures\TestFixtures.class
+com\example\tests\unit\InteractionServiceTest.class
+com\example\tests\integration\InteractionControllerIntegrationTest.class

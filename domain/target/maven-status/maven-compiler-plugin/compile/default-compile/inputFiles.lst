@@ -1,0 +1,10 @@
+C:\Users\Admin\projects\drug-interactions-api\domain\src\main\java\com\example\domain\service\SignalAnalysisService.java
+C:\Users\Admin\projects\drug-interactions-api\domain\src\main\java\com\example\domain\model\DrugName.java
+C:\Users\Admin\projects\drug-interactions-api\domain\src\main\java\com\example\domain\exceptions\InteractionNotFoundException.java
+C:\Users\Admin\projects\drug-interactions-api\domain\src\main\java\com\example\domain\service\InteractionService.java
+C:\Users\Admin\projects\drug-interactions-api\domain\src\main\java\com\example\domain\ports\InteractionRepository.java
+C:\Users\Admin\projects\drug-interactions-api\domain\src\main\java\com\example\domain\model\Error.java
+C:\Users\Admin\projects\drug-interactions-api\domain\src\main\java\com\example\domain\model\InteractionNote.java
+C:\Users\Admin\projects\drug-interactions-api\domain\src\main\java\com\example\domain\exception\InteractionNotFoundException.java
+C:\Users\Admin\projects\drug-interactions-api\domain\src\main\java\com\example\domain\ports\OpenFdaClient.java
+C:\Users\Admin\projects\drug-interactions-api\domain\src\main\java\com\example\domain\model\SignalAnalysis.java

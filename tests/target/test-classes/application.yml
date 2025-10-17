@@ -1,0 +1,11 @@
+spring:
+  main:
+    banner-mode: off
+  jackson:
+    default-property-inclusion: non_null
+
+logging:
+  level:
+    com.example: DEBUG
+    org.springframework.web: INFO
+    com.github.tomakehurst.wiremock: INFO

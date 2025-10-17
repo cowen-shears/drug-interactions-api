@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+logging:
+  level:
+    com.example: DEBUG
+    org.springframework.web: INFO
+
+spring:
+  application:
+    name: drug-interactions-api
+  jackson:
+    default-property-inclusion: non_null
+    serialization:
+      WRITE_DATES_AS_TIMESTAMPS: false
